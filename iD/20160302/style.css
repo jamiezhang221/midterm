@@ -1,0 +1,93 @@
+body {
+	background-color: white;
+	background-image: url("bg1.jpg" );
+	background-size:inherit;
+	font-family: 'Lato', sans-serif;
+	margin:0px;
+}
+.banner{
+	margin-left: 0;
+	margin-right: 0;
+	width: width;
+	height:400px;
+	background-color: rgba(0,0,0,0.25);
+
+	margin-top: 150px;
+}
+.banner{
+	width:100%;
+	text-align: center;
+}
+h1{
+	color:white;
+	margin:5px;
+	padding-top: 20px;
+	font-size:800%
+
+
+}
+h2{
+	color: white;
+	margin-top: 10px
+	font-size: 200
+}
+
+.header{
+	text-align: right;
+	margin: 20px;
+}
+
+.logIn{
+	font-size: 200%;
+	text-decoration: none;
+}
+
+.logIn:hover{
+	color:red;
+
+}
+#sheader{
+	background-color:none;
+}
+#snewsearch{
+	float:center;
+	padding:20px;
+}
+.stextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.sbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border: solid 1px #E44233; 
+	border-right:0px;
+	background: #E44233;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E2796F), to(#E44233))
+	background: -moz-linear-gradient(top, #E2796F,  #E44233);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.sbutton:hover {
+	text-decoration: none;
+	background: #9C2E24;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9C2E24), to(#E2796F));
+	background: -moz-linear-gradient(top,  #9C2E24,  #E2796F);
+}
+
+.sbutton::-moz-focus-inner {
+  border: 0;
+}
+.sclear{
+	clear:both;
+}
