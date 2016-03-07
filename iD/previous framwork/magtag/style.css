@@ -1,0 +1,124 @@
+body {
+	background-color: white;
+	background-image: url("bg1.jpg" );
+	background-size:inherit;
+	font-family: 'Lato', sans-serif;
+	margin:0px;
+}
+.logo{
+	margin:auto;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	margin-top: 40px;
+}
+
+h1{
+	color:white;
+	margin:5px;
+	padding-top: 20px;
+	font-size:800%
+
+
+}
+h2{
+	color: white;
+	margin-top: 10px
+	font-size: 200
+}
+
+.search{
+	float:center	;
+
+}
+
+.logIn{
+	text-align: right;
+	margin: 20px;
+	font-size: 200%;
+	text-decoration: none;
+}
+
+.logIn:hover{
+	color:red;
+
+}
+#sheader{
+	background-color:none;
+}
+#snewsearch{
+	float:center;
+	padding:20px;
+}
+.stextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.sbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border: solid 1px #E44233; 
+	border-right:0px;
+	background: #E44233;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E2796F), to(#E44233))
+	background: -moz-linear-gradient(top, #E2796F,  #E44233);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.sbutton:hover {
+	text-decoration: none;
+	background: #9C2E24;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9C2E24), to(#E2796F));
+	background: -moz-linear-gradient(top,  #9C2E24,  #E2796F);
+}
+
+.sbutton::-moz-focus-inner {
+  border: 0;
+}
+.sclear{
+	clear:both;
+}
+
+.tagmag{
+	margin:auto;
+	padding-top: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*align-items: center;*/	
+	align-content: space-between;
+	/*border:2px red;*/
+	margin-top：100px;
+	/*backgroundcolor: rgba(0,0,0,0.2);
+	border-radius: 25px;*/
+
+	width:98%;
+}
+.banner{
+	background-color: rgba(0,0,0,0.20);
+	height:auto;
+	min-height: 200px;
+	width:100%;
+	display: flex;
+	align-content: space-around;
+}
+.tm {
+	display: flex;
+	margin:5px;
+	width:80px;
+	height:80px;
+	border: 2px solid black;
+	border-radius:10px;
+	background-color: white;
+	
+}
